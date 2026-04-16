@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        
+        <div class="espacio-logo">
+            <img src="imagenes/logo.png" alt="Logo" width="280">
+        </div>
+
+        <h1>Inicio de sesión</h1>
+        
+        <form>
+            <div class="grupo">
+                <label>Email:</label>
+                <input type="text" id="rol-input" placeholder="Ingresa tu correo" required>
+            </div>
+
+            <div class="grupo">
+                <label>Contraseña:</label>
+                <input type="password" placeholder="Ingresa tu contraseña">
+            </div>
+
+            <button type="button" class="boton-ingresar" 
+                onclick="location.href=document.getElementById('rol-input').value + '.html'">
+                Ingresar
+            </button>
+        </form>
+
+        <hr>
+
+        <div class="pie-pagina">
+            <a href="recuperación.html">¿Olvidaste tu contraseña?</a> | 
+            <a href="registro.html">Registrarse</a>
+        </div>
+
+    </div>
+
+</body>
+</html>

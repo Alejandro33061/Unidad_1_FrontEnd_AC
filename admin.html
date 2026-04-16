@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SportClub - Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor contenedor-ancho borde-rojo">
+        <div class="header-dash">
+            <img src="imagenes/logo.png" alt="Logo" width="120">
+            <h2>DASHBOARD ADMIN</h2>
+            <div>
+                <button class="boton-ingresar btn-mini">Editar Perfil</button>
+                <a href="index.html" class="boton-ingresar btn-mini">Cerrar Sesión</a>
+            </div>
+        </div>
+        <div style="font-weight: bold; margin-bottom: 15px;">Usuarios | Estadísticas | Configuración</div>
+        <hr style="margin-bottom: 20px; border: 0; border-top: 1px solid #eee;">
+
+        <div class="fila">
+            <div class="columna">
+                <h4>Gestión de Usuarios</h4>
+                <input type="text" placeholder="Buscar usuario...">
+                <div class="item-alineado">
+                    <span>Admin Principal</span>
+                    <button class="boton-ingresar btn-mini">Editar</button>
+                </div>
+                <div class="item-alineado">
+                    <span>Coach Staff</span>
+                    <button class="boton-ingresar btn-mini">Editar</button>
+                </div>
+            </div>
+            <div class="columna">
+                <h4>Estadísticas del Sistema</h4>
+                <table>
+                    <tr><th>Métrica</th><th>Total</th></tr>
+                    <tr><td>Usuarios</td><td>150</td></tr>
+                    <tr><td>Clases</td><td>45</td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

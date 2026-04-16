@@ -1,0 +1,110 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    background:#2E1A47;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font:14px Arial,sans-serif;
+}
+
+.contenedor{
+    background:#fff;
+    width:350px;
+    padding:20px;
+    border:2px solid #000;
+    border-radius:10px;
+    text-align:center;
+}
+
+.contenedor-ancho,.grupo{text-align:left;}
+.contenedor-ancho{width:100%;max-width:900px;}
+
+.header-dash,.fila,.item-alineado,.user-info{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.header-dash{justify-content:space-between;margin-bottom:20px;}
+.item-alineado{
+    justify-content:space-between;
+    margin-bottom:10px;
+    border-bottom:1px solid #eee;
+    padding-bottom:5px;
+}
+.item-alineado span{font-size:13px;}
+
+.borde-azul{border-top:10px solid #007BFF;}
+.borde-rojo{border-top:10px solid #FF0000;}
+.borde-verde{border-top:10px solid #28A745;}
+
+input,.boton-ingresar,.columna,table,th,td{
+    border:2px solid #000;
+    border-radius:8px;
+}
+
+input{width:100%;padding:10px;margin-bottom:10px;}
+
+.boton-ingresar{
+    width:100%;
+    padding:10px;
+    background:#120e3fd0;
+    color:#fff;
+    font-weight:bold;
+    cursor:pointer;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn-mini{width:auto;min-width:100px;padding:5px 10px;font-size:11px;}
+
+.espacio-logo,h1,.grupo,hr{margin-bottom:20px;}
+h1{font-size:24px;}
+
+.columna{flex:1;padding:15px;}
+.flex-2{flex:2;}
+
+hr{border:0;border-top:1px solid #eee;}
+
+.pie-pagina a{text-decoration:none;color:blue;}
+
+table{width:100%;border-collapse:collapse;margin-top:10px;}
+th,td{padding:8px;text-align:center;border:1px solid #000;}
+
+.tabla-horario th{background:#eee;font-size:12px;}
+.tabla-horario td{font-size:11px;line-height:1.4;}
+
+.progreso-circulo{
+    width:60px;
+    height:60px;
+    border:5px solid #F2B705;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:10px auto;
+    font-weight:bold;
+}
+
+#enviado,.mensaje{display:none;}
+.mensaje{margin-top:15px;color:green;font-weight:bold;}
+#enviado:checked~.mensaje{display:block;}
+
+.navegacion-links{font-weight:bold;margin-bottom:15px;color:#333;}
+
+.panel-titulo{
+    background:#f9f9f9;
+    padding:10px;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+
+.avatar-mini{
+    width:25px;
+    height:25px;
+    background:#ccc;
+    border-radius:50%;
+    border:1px solid #000;
+}
